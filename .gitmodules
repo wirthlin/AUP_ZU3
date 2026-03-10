@@ -1,0 +1,6 @@
+[submodule "aup-zu3-bsp"]
+	path = aup-zu3-bsp
+	url = git@github.com:RealDigitalOrg/aup-zu3-bsp.git
+[submodule "AUP-ZU3"]
+	path = AUP-ZU3
+	url = git@github.com:Xilinx/AUP-ZU3.git
