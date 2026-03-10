@@ -6,17 +6,19 @@ This page summarizes my experience building the AUP for the ZU3.
 
 * [AUP-ZU3 repository](https://github.com/Xilinx/AUP-ZU3/tree/main)
 
-I added the following submodules to the repository:
-
-```
-git submodule add git@github.com:RealDigitalOrg/aup-zu3-bsp.git
-git submodule add git@github.com:Xilinx/AUP-ZU3.git
-```
-
+`make clone-aup` will clone the repository and initialize the submodules.
 
 ## Build Process
 
 The build process is based from this [link](https://github.com/Xilinx/AUP-ZU3/blob/main/docs/overlays.md#rebuild-the-base-overlay)
+
+Build the IP: `source ./build_ip.tcl`
+
+Build the base design: `source ./base.tcl`
+
+CLose project: `close_project`
+
+Build bitstream: `source ./build_bitstream.tcl`
 
 ### Board Files
 
